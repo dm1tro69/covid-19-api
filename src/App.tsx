@@ -43,9 +43,7 @@ const App:FC = () => {
             }
         `}/>
 
-        {activeCountries.map((aCountry) => (
-               <span>{aCountry.Country}</span>
-        ))}
+
 
         {data ?
             <>
